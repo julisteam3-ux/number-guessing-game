@@ -68,3 +68,4 @@ then
   UPDATE_BEST=$($PSQL "UPDATE users SET best_game = $GUESS_COUNT WHERE user_id = $USER_ID")
 fi
 # v1.1
+# v1.2
