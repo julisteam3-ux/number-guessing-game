@@ -67,3 +67,4 @@ if [[ -z $CURRENT_BEST || $GUESS_COUNT -lt $CURRENT_BEST ]]
 then
   UPDATE_BEST=$($PSQL "UPDATE users SET best_game = $GUESS_COUNT WHERE user_id = $USER_ID")
 fi
+# v1.1
